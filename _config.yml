@@ -26,7 +26,7 @@ github_username:  pengbs
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 gems:
   - jekyll-feed
 exclude:
