@@ -2,24 +2,57 @@
 layout: post
 title:  "欢迎来到我的博客!"
 date:   2016-12-25 16:22:08 +0800
-categories: jekyll update
+categories: 心情
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# 欢迎使用马克飞象
+`实例笔记本` `马克飞象` `帮助` `MarkDown`
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+**马克飞象**是一款专门为印象笔记打造的MarkDown编辑器，通过精心设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验，特点概述:  
 
-Jekyll also offers powerful support for code snippets:
+* **功能丰富**：支持高亮代码块、*LaTeX*公式、流程图、本地图片以及附件上传，甚至截图粘贴，工作效率好帮手；
+* **得心应手**：简洁高效的编辑器，支持[桌面客户端](http://www.baidu.com)，支持移动端web；
+* **深度整合**：支持选择笔记和添加标签；
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## MarkDown简介
+> MarkDown是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。--[维基百科](https://zh.wikipedia.org/wiki/Markdown)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+正如您在阅读的这份文档，它使用简单的符号标示不同的标题，将某些文字标记为**粗体**或者*斜体*，创建一个[链接](http://www.baidu.com)或一个脚注[^demo]。下面列举了几个高级功能，更多语法请按`Crtl + /`查看帮助。
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+### <a name='code'></a>代码块
+``` python
+@requires_authorization
+def somefunc(param1='', param2=0):
+    '''A docstring'''
+    if param1 > param2: # interesting
+        print 'Greater'
+    return (param2 - param1 + 1) or None
+class SomeClass:
+    pass
+>>> message = '''interpreter
+... prompt'''  
+```
+### LaTeX公式
+可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：
+
+$$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+
+### 表格
+| Item | Value | Qty |  
+|:-----|:-----:|:----:|
+| 电脑  |1600元 |5     |
+|手机   |1500元 |3     |
+
+### 流程图
+>暂时不支持流程图
+
+### 复选框
+使用`-[ ]`和`-[x]`语法可以创建复选框，实现todo-list等功能。例如
+
+- [ ] 待完成  
+- [x] 已完成
+
+### 反馈与建议
+* 微博:[@彭保生](#code)
+* 邮箱:<879236589@qq.com>
+[^demo]: 这是一个示例脚注。请查阅[MultiMarkDown文档](https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes)关于脚注的说明。**限制**：印象笔记的笔记内容可能导致部分脚注无法正常点击。
