@@ -3,8 +3,8 @@ title: HeyBoy Blog
 SEOTitle: 无齿的博客 | HeyBoy Blog
 header-img: img/home-bg.jpg
 email: pengbs9212@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
+description: "关于客户端与后端、黑客与画家 | 保生，Web & Mobile Lover，PHP Engineer，Android Engineer | 这里是 @HeyBoy 的个人博客，与你一起发现更大的世界。"
+keyword: "保生, HeyBoy, 无齿, pengbs, @HeyBoy, 保生的博客, HeyBoy Blog, 博客, 个人网站, 互联网, android, 安卓, PHP，Laravel"
 url: "https://pengbs.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
