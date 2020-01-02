@@ -21,7 +21,7 @@ android中使用gradle的一些要点总结，做下记录.
         exclude group: 'com.github.bumptech.glide'
     }
 
-但是这样就会导致每引入一个第三方库可能就得排除一下，非常麻烦,同步是官方的`com.android.support`库；其实可以在gradle里面配置一下，强制使用统一的版本，在项目的根`build.gradle`里面添加如下配置：
+但是这样就会导致每引入一个第三方库可能就得排除一下，非常麻烦,特别是官方的`com.android.support`库；其实可以在gradle里面配置一下，强制使用统一的版本，在项目的根`build.gradle`里面添加如下配置：
 
 
 	subprojects {
@@ -107,7 +107,7 @@ android中使用gradle的一些要点总结，做下记录.
         #引用v7库
 		implementation rootProject.ext.dependencies['appcompat-v7']
 
-这样以后要升级第三方库的版本就可以统一在`config.build`文件里面修改
+这样以后要升级或者修改第三方库的版本就可以统一在`config.build`文件里面修改
 
 ## 依赖下载失败处理
 
@@ -126,7 +126,7 @@ android中使用gradle的一些要点总结，做下记录.
     	}
 	}
 
-加入
+重点是下面这两行
 
 	maven {url "https://maven.aliyun.com/repository/public"}
     maven {url "https://maven.aliyun.com/repository/google"}
