@@ -2,7 +2,7 @@
 layout:     post
 title:      "Privacy Policy for Easy Stickers App"
 subtitle:   ""
-date:       2020-01-02 15:19:00
+date:       2023-04-03 15:19:00
 author:     "HeyBoy"
 tags:
     - Privacy Policy
